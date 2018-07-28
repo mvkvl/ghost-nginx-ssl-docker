@@ -20,7 +20,7 @@ services:
     build: ./ghost
     volumes:
       - ghost:/var/lib/ghost
-    #ports: 
+    #ports:
     #  - "2368:2368"
     environment:
       - NODE_ENV=production

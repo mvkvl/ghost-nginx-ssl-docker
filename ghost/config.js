@@ -8,7 +8,7 @@ var path = require('path'),
 
 config = {
     production: {
-        url: 'http://ec.satoshi.tech',
+        url: 'http://blog.slink.ws',
         mail: {},
         database: {
             client: 'sqlite3',
