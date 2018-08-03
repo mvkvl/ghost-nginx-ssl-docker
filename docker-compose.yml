@@ -24,12 +24,9 @@ services:
     hostname: ghost
     image: mvkvl/ghost
     volumes:
-      - ghost:/var/lib/ghost
+      - /opt/docker/ghost/data:/var/lib/ghost/content
     #ports:
     #  - "2368:2368"
     environment:
       - NODE_ENV=production
     restart: always
-
-volumes:
-  ghost:
